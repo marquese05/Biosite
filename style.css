@@ -1,6 +1,6 @@
 body {
     font-family: 'Catamaran', sans-serif; 
-    color: yellow;
+    color: white;
     font-weight: 400;
     opacity:0.9;
     padding-left: 40px;
@@ -8,7 +8,8 @@ body {
     padding-bottom: 40px;
     width: 800px;
     font-size: 16pt; 
-    background-image: url("photo/background.jpg");
+    background-color #9921e8;
+background-image linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
 }
 h1 {font-family: 'Bebas Neue', cursive;
     font-size: 400; 
