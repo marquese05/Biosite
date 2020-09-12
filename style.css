@@ -8,8 +8,9 @@ body {
     padding-bottom: 40px;
     width: 800px;
     font-size: 16pt; 
-    background-color #9921e8;
-background-image linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
 }
 h1 {font-family: 'Bebas Neue', cursive;
     font-size: 400; 
