@@ -13,9 +13,8 @@ body {
 }
 h1 {
   font-family: "Baloo Tammudu 2", cursive;
-  font-size: 90px;
-  font-weight: 900;
-  font-stretch: extra-expanded;
+  font-size: 80px;
+  font-weight: 700;
 }
 h2,
 h3,
@@ -28,14 +27,14 @@ h6 {
 h2 {
   text-align: left;
 }
+p {
+    padding: 4px;
+  }
 img.young {
   float: right;
   width: 300px;
-  height: 275px;
+  height: 411px;
   margin-left: 8px;
-}
-p {
-  padding: 4px;
 }
 img.new {
   float: right;
@@ -48,6 +47,13 @@ img.hoo {
   float: right;
   width: 225px;
   height: 400px;
+  margin-left: 8px;
+  padding-top: 10px;
+}
+img.biz {
+  float: right;
+  width: 300px;
+  height: 391px;
   margin-left: 8px;
   padding-top: 10px;
 }
