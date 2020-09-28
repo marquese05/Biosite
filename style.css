@@ -18,7 +18,6 @@ h1 {
 }
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: "Bebas Neue", cursive;
@@ -28,7 +27,7 @@ h2 {
   text-align: left;
 }
 p {
-    padding: 4px;
+    padding: 2px;
   }
 img.young {
   float: right;
@@ -68,6 +67,7 @@ img.biz {
 .tres {
   clear: right;
   padding-top: 6px;
+
 }
 .topnav {
   overflow: hidden;
@@ -88,12 +88,6 @@ img.biz {
 .topnav a.active {
   background-color: hsl(300, 40%, 68%);
   color: white;
-}
-.footer {
-  float: left;
-  width: 100%;
-  background-color: hsl(300, 40%, 68%);
-  text-align: center;
 }
 .fa {
   padding: 20px;
@@ -127,3 +121,25 @@ img.biz {
   background: #dd4b39;
   color: white;
 }
+
+}
+.footer {
+  float: left;
+  width: 100%;
+  background-color: hsl(300, 40%, 68%);
+  text-align: center;
+}
+.grid1 {
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.grid {
+  clear: both;
+  margin: 5px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+h4 {
+  font-family: "Bebas Neue", cursive;
+}
+
