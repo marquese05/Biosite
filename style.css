@@ -121,10 +121,8 @@ img.biz {
   background: #dd4b39;
   color: white;
 }
-
-}
 .footer {
-  float: left;
+  clear: both;
   width: 100%;
   background-color: hsl(300, 40%, 68%);
   text-align: center;
@@ -133,13 +131,16 @@ img.biz {
   margin: 5px 2px;
   border-radius: 50%;
 }
-.grid {
-  clear: both;
-  margin: 5px;
-  display: grid;
-  grid-template-rows: auto auto auto;
-}
 h4 {
   font-family: "Bebas Neue", cursive;
 }
-
+div.desc {
+  padding: 15px;
+  text-align: left;
+}
+div.gallery {
+  margin: 5px;
+  float: left;
+  clear: right;
+  width: 180px;
+}
