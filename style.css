@@ -125,22 +125,10 @@ img.hoo {
   width: 100%;
   background-color: hsl(300, 40%, 68%);
   text-align: center;
-}
-.grid1 {
-  margin: 5px 2px;
-  border-radius: 50%;
+  font-family: "Bebas Neue", cursive;
 }
 h4 {
   font-family: "Bebas Neue", cursive;
-}
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-div.gallery {
-  margin: 5px;
-  float: left;
-  clear: right;
 }
 .navi1 a:hover {
   text-decoration: underline;
@@ -150,3 +138,18 @@ div.gallery {
  color: white;
  text-decoration: none;
 }
+.grid1 {
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+div.desc {
+  padding: 6px;  
+}
+.column {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
